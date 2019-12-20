@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection="Area1")
 public class Customer {
-
+//so its updated
   @Id
   private String id;
   public String getId() {
